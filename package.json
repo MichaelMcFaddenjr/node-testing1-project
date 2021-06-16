@@ -16,5 +16,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/node-testing1-project.git"
+  },
+  "dependencies": {
+    "npm": "^7.17.0",
+    "test": "^0.6.0"
   }
 }

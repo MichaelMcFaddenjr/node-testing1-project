@@ -8,6 +8,11 @@
  */
 function trimProperties(obj) {
   // ✨ implement
+  const result = {}
+  for (let prop in obj) {
+    result[prop] = obj[prop].trim()
+  }
+  return result
 }
 
 /**
@@ -32,6 +37,7 @@ function trimPropertiesMutation(obj) {
  */
 function findLargestInteger(integers) {
   // ✨ implement
+
 }
 
 class Counter {
